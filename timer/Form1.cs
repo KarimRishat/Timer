@@ -22,6 +22,7 @@ namespace timer
                 panel2.Visible = false;
                 button1.Visible = true;
                 button2.Visible = false;
+                button3.Visible = false;
                 CancelBut.Enabled = false;
                 MessageBox.Show("Все!", "таймер все", MessageBoxButtons.OK);
             }
@@ -42,6 +43,7 @@ namespace timer
                 panel2.Visible = false;
                 button1.Visible = true;
                 button2.Visible = false;
+                button3.Visible = false;
                 CancelBut.Enabled = false;
                 MessageBox.Show("Все!", "таймер все", MessageBoxButtons.OK);                
             }
